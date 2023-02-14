@@ -1,5 +1,56 @@
-<!--
-    Replace this with your working code from Lab 2, and include:
-    - The styles in this folder's `style.css`
-    - The script in script.js, which should be included via a `<script src="script.js" >` call before your closing </body> tag 
--->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Benny Kotler's Labs</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="wrapper">
+        <!-- wrapper -->
+      <header class="header"><h1>Benny Kotler's Labs for INST377</h1></header>
+      <div class="container">
+        <!-- container -->
+        <div class="left_section box">
+            <!-- left inputs -->
+          <h3>Album Names</h3>
+          <ol class="box">
+            <li>Professional Rapper</li>
+            <li>7 EP</li>
+            <li>Scorpion</li>
+            <li>Montero</li>
+            <li>Earth</li>
+          </ol>
+        </div>
+        <div class="right_section box"> <!-- right side -->
+          <h3>Image Carousel</h3>
+          <div class="carousel">
+            <button class="prev">prev</button>
+            <div class = "slides"> <!-- images box -->
+              <div class="carousel_item visible"><img id ="slide_1" src="images/Jackson.jpg" alt="Image of Lamar Jackson" /></div>
+              <div class="carousel_item hidden"><img id="slide_2" src="images/Kuzma.jpg" alt="Image of Kyle Kuzma" /></div>
+              <div class="carousel_item hidden"><img id="slide_3" src="images/Ovechkin.jpg" alt="Image of Alex Ovechkin" /></div>
+              <div class="carousel_item hidden"><img id="slide_4" src="images/Rutschman.jpg" alt="Image of Adley Rutschman"/></div>
+            </div>
+            <button class="next">next</button>
+          </div>
+          <div class="box">
+            <!-- description box -->
+            Four star atheletes in the DC/Baltimore area</div>
+        </div>
+      </div>
+    </div>
+    <footer class="footer">
+      Github Account Name: bkotler
+      <a
+        href="http://github.com/bkotler/"
+        target="_blank"
+        rel="noopener noreferrer"
+        >My GitHub Account</a
+      >
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
